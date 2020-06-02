@@ -43,7 +43,7 @@ Goal:
 1. Now going to create two python scripts that will retrieve the image data, classify it based on a downloaded TensorFlow model, and publish the results into a ROS topic.
     - Retrieve ROS image from a topic and sending them to a classification class that will decide which objects are present on the scene
         ```sh
-        roscd my_tf_course_pkg;cd scripts
-        touch search_for_mira_robot.py
-        chmod +x search_for_mira_robot.py
+        $ roscd my_tf_course_pkg;cd scripts
+        $ touch search_for_mira_robot.py
+        $ chmod +x search_for_mira_robot.py
         ```
