@@ -1,0 +1,2 @@
+my_tf_course_pkg
+-DPYTHON_EXECUTABLE:FILEPATH=/home/user/.py3venv/bin/python -DCATKIN_DEVEL_PREFIX=/home/user/catkin_ws/src/ROS_DeepLearningTensorFlow/my_catkin_ws_python3/devel -DCMAKE_INSTALL_PREFIX=/home/user/catkin_ws/src/ROS_DeepLearningTensorFlow/my_catkin_ws_python3/install -G Unix Makefiles
