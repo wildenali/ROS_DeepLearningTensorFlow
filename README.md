@@ -47,3 +47,25 @@ Goal:
         $ touch search_for_mira_robot.py
         $ chmod +x search_for_mira_robot.py
         ```
+2. Extra files needed to process, convert and detect the images. They are extracted from Yolo Object Recognition
+    ```sh
+    $ roscd my_tf_course_pkg;cd scripts
+    $ touch dataset.py
+    $ touch utils.py
+    $ touch convert.py
+    $ touch models.py
+    $ touch batch_norm.py
+    $ chmod +x *.py
+    ```
+3. Download YOLO Model trained with COCO dataset, with its weights and classesnames list:
+    ```sh
+    $ roscd my_tf_course_pkg
+    $ mkdir yolo_weights
+    $ touch coco.names
+    $ wget https://pjreddie.com/media/files/yolov3.weights -O ./yolo_weights/yolov3.weights
+    $ num_classes=$(wc -l < coco.names)
+    $ echo $num_classes
+    $ python scripts/convert.py \
+	--num_classes $num_classes \
+	--weights ./yolo_weights/yolov3.weights \
+    ```
