@@ -1,0 +1,26 @@
+<annotation>
+	<folder>test</folder>
+	<filename>20150515_0204_1.jpg</filename>
+	<path>/home/rdaneel/TheConstruct/TheConstructSimulations/course_tflow_image_student_data/images_1_labels/test/20150515_0204_1.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>400</width>
+		<height>393</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>mira_robot</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>53</xmin>
+			<ymin>32</ymin>
+			<xmax>345</xmax>
+			<ymax>312</ymax>
+		</bndbox>
+	</object>
+</annotation>
